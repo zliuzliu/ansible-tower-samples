@@ -1,0 +1,12 @@
+---
+- name: Install Wget package
+  hosts: all
+  become: true
+  gather_facts: false
+
+  tasks:
+    - name: Ensure Wget is installed
+      yum:
+        name:
+          - wget
+        state: present
