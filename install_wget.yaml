@@ -8,5 +8,5 @@
     - name: Ensure Wget is installed
       yum:
         name:
-          - wget="{{ deployment_version }}"
+          - wget={{ deployment_version }}
         state: present
