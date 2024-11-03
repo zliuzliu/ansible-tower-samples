@@ -5,7 +5,7 @@
   gather_facts: false
 
   tasks:
-    - name: Ensure Wget is installed
+    - name: Ensure Wget is removed
       yum:
         name:
           - wget
