@@ -1,0 +1,2 @@
+[cluster_servers]
+master[0:2].ocp4.example.com
