@@ -2,3 +2,10 @@
 master[0:2].ocp4.example.com
 gpu[0:1].ocp4.example.com
 worker[0:2].ocp4.example.com
+
+[coreos_servers]
+master[0:2].ocp4.example.com
+gpu[0:1].ocp4.example.com
+worker[0:2].ocp4.example.com
+dev.example.com
+sno.example.com
